@@ -253,7 +253,7 @@ body{
 
 
 /* media queries for responsiveness */
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   body{
     padding: 0 10px;
   }
@@ -261,8 +261,8 @@ body{
     padding: 20px 0;
   }
   .filters span{
-    margin: 0 7px;
-    font-size: 11px;
+    margin: 0 4px;
+    font-size: 12px;
     padding: 6px 10px;
   }
   .task-input{
@@ -272,7 +272,7 @@ body{
     padding: 18px 20px;
   }
   .controls .clear-btn{
-    font-size: 11px;
+    font-size: 13px;
     padding: 6px 10px;
   }
   .task-box{
@@ -285,28 +285,28 @@ body{
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 375px) {
 
   .filters span{
-    margin: 0 8px;
-    font-size: 9px;
-    padding: 4px 8px;
+    margin: 0 2px;
+    font-size: 12px;
+    padding: 6px 10px;
   }
   .controls .clear-btn{
-    font-size: 9px;
-    padding: 4px 8px;
+    font-size: 12px;
+    padding: 6px 10px;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 360px) {
 
   .filters span{
-    margin: 0 6px;
-    font-size: 7px;
-    padding: 4px 8px;
+    margin: 0 1.5px;
+    font-size: 11px;
+    padding: 5px 8px;
   }
   .controls .clear-btn{
-    font-size: 7px;
-    padding: 4px 8px;
+    font-size: 11px;
+    padding: 6px 8px;
   }
 }
 @media (max-width: 300px) {
