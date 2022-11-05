@@ -251,7 +251,7 @@ body{
 
 
 /* media queries for responsiveness */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body{
     padding: 0 10px;
   }
@@ -259,13 +259,19 @@ body{
     padding: 20px 0;
   }
   .filters span{
-    margin: 0 5px;
+    margin: 0 7px;
+    font-size: 11px;
+    padding: 5px 10px;
   }
   .task-input{
     padding: 0 20px;
   }
   .controls{
     padding: 18px 20px;
+  }
+  .controls .clear-btn{
+    font-size: 11px;
+    padding: 5px 10px;
   }
   .task-box{
     margin-top: 20px;
@@ -274,6 +280,19 @@ body{
   }
   .task label input{
     margin-top: 4px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .filters span{
+    margin: 0 10px;
+    font-size: 7px;
+    padding: 3px 7px;
+  }
+  .controls .clear-btn{
+    font-size: 7px;
+    padding: 3px 7px;
   }
 }
 /* media queries for responsiveness end */
