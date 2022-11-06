@@ -105,7 +105,7 @@ body{
   letter-spacing: 0.3px;
   pointer-events: none;
   transition: transform 0.25s ease;
-  background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+  background: linear-gradient(135deg, #ff5050df 0%, #ac3636f9 100%);
 }
 .clear-btn.active{
   opacity: 0.9;
